@@ -1,0 +1,32 @@
+1~10 노랑
+11~20 하늘
+21~30 빨강
+31~40 회색
+41~45 연두
+
+200304_랜덤 번호생성 완료
+200304_생성된 번호 색상 넣고 오름차순 정렬 완료
+200308_saved 페이지 진행 중/날짜별 wrapping 필요/매 스크린별 currentUserId 확인 필요
+       /IDE에서 종료 후 디바이스에서 실행 시 앱 실행 안됨
+200317_saved 페이지에서 저장한 날짜가 표시되게끔 수정
+       /generator 화면에서 save 버튼 누를 시 firebase에 저장 및 saved 화면에 리스트 뷰로 표시
+200318_sqflite 플러그인 추가를 통한 winning number history 구현 진행
+        https://flutter-ko.dev/docs/cookbook/persistence/sqlite
+
+
+
+
+잔여항목
+fire auth 로그인
+firebase 저장 시 유저 식별자, 시간, 번호가 있어야됨
+저장했던 내용은 삭제 또는 다시 저장이 가능함
+현재까지 기록된 번호들 긁어서 firebase에 올린 후 history 페이지에 표시
+history에 있는 번호들은 사용자가 원할 때 저장할 수 있어야 함
+saved의 경우 device에 파일로 쓰게끔 하고, purchased만 firestore에 저장하도록 변경
+
+출시전
+[UX]
+saved 페이지에서 날짜별로 cardview 형식으로 수정
+
+
+[UI]
